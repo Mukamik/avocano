@@ -24,10 +24,16 @@ const styles = css`
     border-radius: 2px;
     text-transform: uppercase;
     text-decoration: none;
+    /* New styles for button prominence */
+    border: 2px solid green; /* Add a green border */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
   }
-
+  
+  /* optional: make the buy button more prominent than the cart button*/
   .buyButton {
-    border: 1px solid green; /* Add the green border */
+    background-color: green;
+    color: white;
+    font-weight: bold;
   }
 
   .itemTitle {

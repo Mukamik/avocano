@@ -27,8 +27,9 @@ const styles = css`
   }
 
   .buyButton {
-    border: 1px solid green; /* Add the green border */
+    border: 2px solid green; /* Added border to the buyButton */
   }
+
 
   .itemTitle {
     color: var(--color-secondary);

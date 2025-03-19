@@ -26,6 +26,11 @@ const styles = css`
     text-decoration: none;
   }
 
+  .buyButton {
+    border: 2px solid green; /* Added border to the buyButton */
+  }
+
+
   .itemTitle {
     color: var(--color-secondary);
   }
